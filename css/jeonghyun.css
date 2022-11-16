@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 *{
     margin: 0 auto;
@@ -17,79 +18,135 @@ body{
 .head{
     background: url(../resources/images/jh_main.jpg) no-repeat;
     background-size: 100% 300%;
-    background-position: 40%;
+    background-position: 60%;
     width: 100%;
     height: 300px;
     opacity: 0.7;
     margin: 0px;
     padding: 0px;
     position: relative;
+    
 }
-.head p{
+.head > a{
+    color: rgba(0, 0, 0, 0.8) ;
+}
+.head > a > p{
     position: absolute;
-    left: 735px ; top:75px;
+    left: 735px ; top:120px;
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 1;
    
 }
-.table1{
-    width: 100%;
+.menu{
+    width: 1900px;
     height: 70px;
     text-align: center;
-    border-collapse: collapse;
-    font-weight: bold;
     font-size: 17px;
-    
+    background: rgb(230, 230, 230);
 }
-.td1{
-    background: rgba(150,150,150,0.1);
+.navi > li{
+    cursor: pointer;
+    display: block;
+    float: left;
+    background: rgb(230, 230, 230);
     border-left:1px dotted rgba(150, 150, 150, 0.4);
-    
-    
-    
+    height: 70px;
+    width: 270px;
+    font-weight: normal;
+    transition: all 0.3s;
+
 }
-.td1 a{
+.navi > li:hover{
+    background: #eee;
+    font-weight: bold;
+}
+
+.navi > li > a{
+    width: 270px;
     text-decoration: none;
     color: rgba(100,100,100,1);
+    height: 20px;
+    line-height: 70px;
 }
+
+
 
 /* ↑ head영역 */
 
+
+
 .body{
     text-align: center;
-}
-.body .faq{
-    width: 600px;
-    height: 800px;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background: #eee;
 }
 
-.faq  ul{
-    width: 600px;
+.faq p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.body .faq{
+    width: 1200px;
+    height: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border: 1px solid #ccc;
+}
+
+.faq > ul{
+    width: 620px;
     text-align: left;
-    background: #888;
-    
-   
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
 }
 .faq > ul:hover{
     cursor: pointer;
 }
+.faq > ul > .q{
+    padding-left: 20px;
+    padding-top: 20px;  
+    display: block;
+    width: 600px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    transition: all 0.3s;
+    border-collapse: collapse;
+}
 
+.faq > ul > .q:hover{
+    background: #ddd;
+}
 .faq > ul > .a{
     display: none;
-    width: 600px;
+    width: 605px;
+    height: 400px;
     cursor: auto;
-    background-color: white;
-   
-   
+    background-color: #fff;
+    border-collapse: collapse;
+    border-bottom: 0px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 17px;
+  
+
+
 }
 
 .faq > ul > .a.on{
-    display: block;
-    
-   
-    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 
@@ -107,7 +164,7 @@ body{
 
 /* ↓  footer영역 */
 .footer{
-    margin-top: 30px;
+    margin-top: 0px;
     background:rgba(150, 150, 150, 0.4);
     border: 1px solid #000;
     width: 100%;
