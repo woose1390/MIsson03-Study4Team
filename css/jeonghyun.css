@@ -1,0 +1,140 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "맑은 고딕";
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+
+
+.head{
+    background: url(../resources/images/jh_main.jpg) no-repeat;
+    background-size: 100% 300%;
+    background-position: 40%;
+    width: 100%;
+    height: 300px;
+    opacity: 0.7;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.head p{
+    position: absolute;
+    left: 735px ; top:75px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+   
+}
+.table1{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.td1{
+    background: rgba(150,150,150,0.1);
+    border-left:1px dotted rgba(150, 150, 150, 0.4);
+    
+    
+    
+}
+.td1 a{
+    text-decoration: none;
+    color: rgba(100,100,100,1);
+}
+
+/* ↑ head영역 */
+
+.body{
+    text-align: center;
+}
+.body .faq{
+    width: 600px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.faq  ul{
+    width: 600px;
+    text-align: left;
+    background: #888;
+    
+   
+}
+.faq > ul:hover{
+    cursor: pointer;
+}
+
+.faq > ul > .a{
+    display: none;
+    width: 600px;
+    cursor: auto;
+    background-color: white;
+   
+   
+}
+
+.faq > ul > .a.on{
+    display: block;
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ↓  footer영역 */
+.footer{
+    margin-top: 30px;
+    background:rgba(150, 150, 150, 0.4);
+    border: 1px solid #000;
+    width: 100%;
+    height: 200px;
+}
+
+.table3{
+    
+    
+    width: 100%;
+}
+
+.tr3{
+    height: 50px;
+}
+
+.tr3 th{
+    width: 150px;
+    text-align: left;
+    vertical-align: bottom;
+    line-height: 5px;
+    padding:30px 0px 10px 50px;
+   
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    
+}
+
+
+
