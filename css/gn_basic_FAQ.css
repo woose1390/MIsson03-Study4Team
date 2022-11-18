@@ -183,6 +183,7 @@ h1{
     width: 500px;
     margin-bottom: 30px;
    margin-left: -60px;
+   cursor: pointer;
     
 }
 .t_icon{
@@ -191,6 +192,7 @@ h1{
 .ans{
     display: block;
     float: left;
+    margin-bottom: 25px;
     /* display: none; */
 }
 
